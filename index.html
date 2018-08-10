@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        
+                
+        <title>index</title>
+    </head>
+    <body>
+        <!-- jumbotron -->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1>Machine Learning in Computer Vision</h1>
+                <p>Survey & Software & Dataset</p>
+                <!-- button to open the modal -->
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#LM">
+                    Learn more
+                </button>
+            </div>
+        </div>
+        
+        <!-- modal -->
+        <div class="modal fade" id="LM">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <!-- modal header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Survey & Software & Dataset</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <!-- modal body -->
+                    <div class="modal-body">
+                        <p><a href="https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf">Deep learning(2015)</a></p><p><a href="https://arxiv.org/pdf/1404.7828.pdf">Deep learning in neural networks: An overview(2015)</a></p><p><a href="https://arxiv.org/pdf/1206.5538.pdf">Representation learning: A review and new perspectives(2013)</a></p><p><a href="https://arxiv.org/pdf/1412.4564.pdf">MatConvNet: Convolutional neural networks for matlab(2015)</a></p><p><a href="https://arxiv.org/pdf/1408.5093.pdf">Caffe: Convolutional architecture for fast feature embedding(2014)</a></p><p><a href="https://arxiv.org/pdf/1603.04467.pdf">TensorFlow: Large-scale machine learning on heterogeneous distributed systems(2016)</a></p><p><a href="https://arxiv.org/pdf/1605.02688.pdf">Theano: A Python framework for fast computation of mathematical expressions(2016)</a></p><p><a href="https://ronan.collobert.com/pub/matos/2011_torch7_nipsw.pdf">Torch7: A matlab-like environment for machine learning(2011)</a></p><p><a href="https://keras.io/#keras-deep-learning-library-for-theano-and-tensorflow">Keras: Deep Learning library for Theano and TensorFlow</a></p><p><a href="https://arxiv.org/pdf/1409.0575.pdf">Imagenet large scale visual recognition challenge(2015)</a></p><p><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Karpathy_Large-scale_Video_Classification_2014_CVPR_paper.pdf">Large-Scale Video Classification with Convolutional Neural Networks(2014)</a></p><p><a href="https://arxiv.org/pdf/1405.0312.pdf">Microsoft COCO: Common Objects in Context(2015)</a></p><p><a href="http://places.csail.mit.edu/places_NIPS14.pdf">Learning deep features for scene recognition using places database(2014)</a></p>                    </div>
+                    <!-- modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br><br>        
+        <!-- table -->
+        <div class="table-responsive-xl">
+            <table id="mainTable" class="table table-striped table-bordered" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Paper</th>
+                        <th>Type</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>0</td><td><a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">AlexNet(2012)</a></td><td>Convolutional Neural Networks</td><td>Jason Hagerty</td></tr><tr><td>1</td><td><a href="https://arxiv.org/pdf/1312.4400.pdf">Network in network(2013)</a></td><td>Convolutional Neural Networks</td><td>Danish Ali</td></tr><tr><td>2</td><td><a href="https://arxiv.org/pdf/1311.2901v3.pdf">ZF Net(2013)</a></td><td>Convolutional Neural Networks</td><td>Xiaolong Xia</td></tr><tr><td>3</td><td><a href="https://arxiv.org/pdf/1409.1556v6.pdf">VGG Net(2014)</a></td><td>Convolutional Neural Networks</td><td>Maksim Sorokin</td></tr><tr><td>4</td><td><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf">GoogLeNet(2015)</a></td><td>Convolutional Neural Networks</td><td>Dalton Cole</td></tr><tr><td>5</td><td><a href="https://arxiv.org/pdf/1512.03385v1.pdf">Microsoft ResNet(2015)</a></td><td>Convolutional Neural Networks</td><td>Pooja Kancherla</td></tr><tr><td>6</td><td><a href="http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf">Densely Connected Convolutional Networks(2017)</a></td><td>Convolutional Neural Networks</td><td>Mohammed Jasam</td></tr><tr><td>7</td><td><a href="https://arxiv.org/pdf/1311.2524v5.pdf">R-CNN(2013)</a></td><td>Convolutional Neural Networks</td><td>Viraj Gajjar</td></tr><tr><td>8</td><td><a href="https://arxiv.org/pdf/1504.08083.pdf">Fast R-CNN(2015)</a></td><td>Convolutional Neural Networks</td><td>Jian Kang</td></tr><tr><td>9</td><td><a href="https://arxiv.org/pdf/1506.01497v3.pdf">Faster R-CNN(2015)</a></td><td>Convolutional Neural Networks</td><td>Ze Hao Lai</td></tr><tr><td>10</td><td><a href="https://arxiv.org/pdf/1703.06870.pdf">Mask R-CNN(2017)</a></td><td>Convolutional Neural Networks</td><td>Yufang He</td></tr><tr><td>11</td><td><a href="https://arxiv.org/pdf/1506.02025.pdf">Spatial Transformer Networks(2015)</a></td><td>Spatial Transformer Network</td><td>Kunpeng Liu</td></tr><tr><td>12</td><td><a href="https://arxiv.org/pdf/1407.1808.pdf">Simultaneous Detection and Segmentation(2014)</a></td><td>Application Examples</td><td>Sudhir Sornapudi</td></tr><tr><td>13</td><td><a href="https://arxiv.org/pdf/1312.6229.pdf">OverFeat: Integrated recognition, localization and detection using convolutional networks(2013)</a></td><td>Application Examples</td><td>None</td></tr><tr><td>14</td><td><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Redmon_You_Only_Look_CVPR_2016_paper.pdf">You only look once: Unified, real-time object detection(2016)</a></td><td>Application Examples</td><td>None</td></tr><tr><td>15</td><td><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Nam_Learning_Multi-Domain_Convolutional_CVPR_2016_paper.pdf">CNN for visual tracking(2016)</a></td><td>Application Examples</td><td>Chao Zhang</td></tr><tr><td>16</td><td><a href="https://arxiv.org/pdf/1412.2306v2.pdf">CNN+RNN to generating image description(2014)</a></td><td>Application Examples</td><td>None</td></tr><tr><td>17</td><td><a href="http://vlg.cs.dartmouth.edu/c3d/c3d_video.pdf">Learning Spatiotemporal Features with 3D Convolutional Networks(2015)</a></td><td>Application Examples</td><td>None</td></tr><tr><td>18</td><td><a href="http://datascienceassn.org/sites/default/files/Generative%20Adversarial%20Nets.pdf">Generative adversarial nets(2014)</a></td><td>GAN</td><td>Pengyang Wang</td></tr><tr><td>19</td><td><a href="https://arxiv.org/pdf/1611.07004v1.pdf">Image to image translation(CVPR2017)</a></td><td>GAN</td><td>Manas Sangram</td></tr><tr><td>20</td><td><a href="https://arxiv.org/pdf/1703.10593.pdf">Image to image translation(ICCV2017)</a></td><td>GAN</td><td>None</td></tr><tr><td>21</td><td><a href="https://arxiv.org/pdf/1612.07828.pdf">Learning from Simulated and Unsupervised Images through Adversarial Training(2017)</a></td><td>GAN</td><td>Chenyi Mao</td></tr><tr><td>22</td><td><a href="https://arxiv.org/pdf/1609.04802.pdf">Super-resolution(2017)</a></td><td>GAN</td><td>Tyler Percy</td></tr><tr><td>23</td><td><a href="https://arxiv.org/pdf/1612.03242v1.pdf">Text to image(2017)</a></td><td>GAN</td><td>Prithvi Vihari</td></tr><tr><td>24</td><td><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Du_Hierarchical_Recurrent_Neural_2015_CVPR_paper.pdf">Hierarchical Recurrent Neural Network for Skeleton Based Action Recognition(CVPR2015)</a></td><td>RNN & LSTM</td><td>None</td></tr><tr><td>25</td><td><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Donahue_Long-Term_Recurrent_Convolutional_2015_CVPR_paper.pdf">Long-term Recurrent Convolutional Networks for Visual Recognition and Description(2015)</a></td><td>RNN & LSTM</td><td>None</td></tr><tr><td>26</td><td><a href="https://arxiv.org/pdf/1502.03044.pdf">Show, attend and tell: Neural image caption generation with visual attention(2015)</a></td><td>RNN & LSTM</td><td>Dakshak Keerthi Chandra</td></tr><tr><td>27</td><td><a href="https://arxiv.org/pdf/1601.06759v2.pdf">Pixel recurrent neural networks(2016)</a></td><td>RNN & LSTM</td><td>Dustin Tanksley</td></tr><tr><td>28</td><td><a href="http://slazebni.cs.illinois.edu/publications/yunchao_eccv14_mopcnn.pdf">Multi-scale Orderless Pooling of Deep Convolutional Activation Features(2014)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>None</td></tr><tr><td>29</td><td><a href="http://www.cs.toronto.edu/~fritz/absps/reluICML.pdf">ReLU(Rectified Linear Units)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>Anand Nambisan</td></tr><tr><td>30</td><td><a href="http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf">Dropout: a simple way to prevent neural networks from overfitting(2014)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>Adam Harter</td></tr><tr><td>31</td><td><a href="https://www.cv-foundation.org/openaccess/content_cvpr_workshops_2014/W15/papers/Razavian_CNN_Features_Off-the-Shelf_2014_CVPR_paper.pdf">CNN features off-the-Shelf: An astounding baseline for recognition(2014)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>None</td></tr><tr><td>32</td><td><a href="https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Oquab_Learning_and_Transferring_2014_CVPR_paper.pdf">Learning and transferring mid-Level image representations using convolutional neural networks(2014)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>None</td></tr><tr><td>33</td><td><a href="http://papers.nips.cc/paper/5347-how-transferable-are-features-in-deep-neural-networks.pdf">How transferable are features in deep neural networks(2014)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>None</td></tr><tr><td>34</td><td><a href="https://arxiv.org/pdf/1412.1897.pdf">Deep neural networks are easily fooled: High confidence predictions for unrecognizable images(2015)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>Norsang Lama</td></tr><tr><td>35</td><td><a href="https://arxiv.org/pdf/1412.6980.pdf">Adam: A method for stochastic optimization(2014)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>jiang bian</td></tr><tr><td>36</td><td><a href="http://proceedings.mlr.press/v37/ioffe15.pdf">Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift(2015)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>None</td></tr><tr><td>37</td><td><a href="https://arxiv.org/pdf/1207.0580.pdf">Improving neural networks by preventing co-adaptation of feature detectors(2012)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>None</td></tr><tr><td>38</td><td><a href="http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a">Random search for hyper-parameter optimization(2012)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>Ruichang Guo</td></tr><tr><td>39</td><td><a href="http://openaccess.thecvf.com/content_ICCV_2017/papers/Lin_Focal_Loss_for_ICCV_2017_paper.pdf">Focal Loss For Dense Object Detection(2017)</a></td><td>Understanding CNN (Convolutional Neural Networks)</td><td>None</td></tr>                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>#</th>
+                        <th>Paper</th>
+                        <th>Type</th>
+                        <th>Name</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </body>
+</html>
